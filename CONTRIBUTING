@@ -1,0 +1,24 @@
+# Contributing to Code with Jamshed — Data Structures Interview Handbook
+
+Thank you for helping other learners. Please keep explanations accurate, original and easy to understand.
+
+## How to contribute
+
+1. Fork the repository and create a descriptive branch.
+2. Open an issue before large changes so overlapping edits can be avoided.
+3. For an answer improvement, include the question number, updated explanation, realistic example, asymptotic time and space, and interview pitfall.
+4. For Java code, prefer Java 17+ standard library; avoid non-standard dependencies and show boundary cases.
+5. For a diagram, use a simple GitHub-compatible Mermaid code block and labels that read clearly on mobile.
+6. Run `javac examples/DataStructurePlayground.java` and `java -cp examples DataStructurePlayground` before opening a pull request.
+7. Explain the reason for the change and include a test or counterexample where applicable.
+
+## Content standards
+
+- Avoid copied text from books, paid courses or other repositories.
+- Do not present expected-average O(1) as universal worst-case O(1).
+- State whether duplicates, nulls, negative weights and disconnected graphs are supported.
+- Prefer descriptive variable names in full examples, with brief inline snippets in answers.
+- Keep Java code self-contained where the page claims it is runnable.
+- Use constructive language and an inclusive, learner-friendly tone.
+
+Questions and suggestions are welcome via GitHub Issues.
